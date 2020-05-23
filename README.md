@@ -1,5 +1,7 @@
 # Swim/Pelion Integration Example
 
+![screenshot](/ui/assets/images/ui-screenshot.png)
+
 links:
 * https://www.pelion.com/docs/device-management/current/introduction/index.html
 * https://github.com/swimos/plant-monitor
