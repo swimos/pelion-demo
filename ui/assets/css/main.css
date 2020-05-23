@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 16pt;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+h3 {
+  background-color: #00a6ed;
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-bottom: 0px; 
+  border-radius: 5px 5px 0px 0px;
+  font-family: Orbitron;
+  border-top: solid 1px rgb(175,225,255);
+  border-bottom: solid 1px rgb(0,54,86);  
+}
+
+.cellBottom {
+  border-radius: 0px 0px 5px 5px;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+h4 {
+  background-color: #00a6ed;
+  padding: 5px 10px;
+  font-size: 18px;
+  margin-bottom: 0px; 
+}
+
+h5 {
+  font-size: 18px;
+  color: #000000;
+  margin: 10px auto 0px 0px;
+}
+
+h6 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;  
+}
+
+.main {
+  width: 900px;
+  margin: 10px auto 50px auto;
+  display: grid;
+  grid-template-rows: 350px auto;
+  grid-gap: 10px;
+}
+
+.menu select {
+  margin: 10px;
+  background-color: #404040;
+  color: white;
+  border: 0px;
+}
+
+#deviceDetailPanel {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+}
+#deviceDetailPanel div {
+  overflow: hidden;
+  font-size: 10px;
+}
+
+.resourcePanel {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 10px;
+  font-size: 12px;  
+}
+
+.resourceListItem:hover{
+  background-color: rgba(100,100,0,0.2);
+  cursor: pointer;
+}
+
+#resourceInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+#resourceData {
+  flex-grow: 0;
+  height: 30px;
+}
+
+#resourceCharts {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-gap: 10px;
+}
+
+#resourceGauge {
+  width: 300px;
+  height: 300px;
+}
